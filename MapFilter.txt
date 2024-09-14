@@ -1,0 +1,7 @@
+<ul>
+{li.map((each)=> (
+<li>{each}</li>
+))}
+</ul>
+
+li.filter((age)=> age>20 );
