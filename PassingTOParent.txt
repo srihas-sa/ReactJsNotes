@@ -1,0 +1,24 @@
+Parent can choose how to handle event handler
+
+
+Parent
+======
+<ul>
+  {li.map((each)=> (
+    <Individual index={each} handleevent={() =>console.log("hello")}></Individual>
+  ))}
+</ul>
+
+
+child
+=====
+function Individual({index,handleevent}) {
+  return ( 
+  <div key={index}>
+              
+    <button onClick={handleevent}>{index}</button>
+  </div>
+  )
+}
+
+export default Individual;
