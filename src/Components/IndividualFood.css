@@ -1,0 +1,14 @@
+.IndividualTask {
+  /* Default styles for IndividualTask */
+  background-color: transparent;
+}
+
+.IndividualTask1 {
+  /* Styles when background is true */
+  background-color: yellow; /* or any color you 
+  prefer */
+  color:red;
+}
+.head {
+  margin-right:10px;
+}
